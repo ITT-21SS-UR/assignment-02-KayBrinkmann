@@ -3,7 +3,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets, uic
 
 
 # decorator function for logging to stdout
-# (not a very pretty implementation, but only thought of them when i was done with the rest)
+# (not a very pretty implementation, but only remembered it as i was already done with everything else)
 def decorator(func):
     def inner(*args, **kwargs):
         if len(args) > 2:
